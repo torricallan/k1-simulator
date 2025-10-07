@@ -1,0 +1,27 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# IDE files
+.vscode/
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development and test files
+launch_app.R
+test_*.R
+interactive_*.R
+
+# Temporary outputs
+Rplots.pdf
+*.tmp
+*.temp
+
+# Local development
+.env
+.env.local
