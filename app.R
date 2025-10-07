@@ -18,4 +18,5 @@ source("personalized_k1_simulation.R")
 # This file contains the UI and server definitions
 source("k1_shiny_app.R")
 
-# The app is now ready and will be launched by the deployment platform
+# Create and return the Shiny app object for deployment
+shinyApp(ui = ui, server = server)

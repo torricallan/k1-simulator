@@ -1068,5 +1068,5 @@ server <- function(input, output, session) {
   )
 }
 
-# Run the application
-shinyApp(ui = ui, server = server)
+# Export UI and server for app.R
+# The shinyApp() call will be in app.R for proper deployment
