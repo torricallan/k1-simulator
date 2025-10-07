@@ -53,4 +53,4 @@ The app is containerized and ready for deployment on platforms like:
 - Render.com (current deployment)
 - Heroku
 - Google Cloud Run
-- Any Docker-compatible platform
+- Any Docker-compatible platform# Trigger deploy
